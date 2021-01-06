@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main( ) {
+
+    float i;
+
+    printf( "Enter Celsius number: ");
+    scanf("%f", &i);
+
+    float j = i * 1.8 + 32;
+
+
+    printf( "\nNumber in fahrenheit: %.1f ", j);
+
+    return 0;
+}

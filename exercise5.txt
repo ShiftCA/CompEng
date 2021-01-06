@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main( ) {
+
+    float chocolate = 0.75 * 30;
+    float vanilla = 0.65 * 52;
+    float milk = 1.75 * 26;
+    float total = chocolate + vanilla + milk;
+
+    printf("Receipt for Sweets Purchases\n================================================\n30 Chocolate Chip Cookies at $0.75 each $  %.2f\n52 Vanilla Cookies at $0.65 each $         %.2f\n26 Chocolate Milk at $1.75 each $          %.2f\n================================================\nTotal Amount $                            %.2f\n", chocolate, vanilla, milk, total);
+
+
+}
